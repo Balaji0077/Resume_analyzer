@@ -1,0 +1,83 @@
+.upload-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #eef2f3, #8e9eab);
+  padding: 20px;
+}
+
+.upload-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.upload-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.file-input-label {
+  padding: 15px;
+  border: 2px dashed #3498db;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #2980b9;
+  background-color: #ecf6fc;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-input-label:hover {
+  background-color: #d6ecfa;
+}
+
+.file-input-label input {
+  display: none;
+}
+
+.analyze-btn {
+  padding: 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.analyze-btn:hover {
+  background-color: #2980b9;
+  transform: scale(1.03);
+}
+
+.analyze-btn:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
+
+.result-box {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-left: 5px solid #3498db;
+  text-align: left;
+  border-radius: 6px;
+  white-space: pre-line;
+}
+
